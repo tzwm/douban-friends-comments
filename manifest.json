@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Douban Friend Comment",
+  "description": "This extension display comments from douban friends on movie page.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "http://*.douban.com/"
+  ],
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "Douban Friend Comment",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
