@@ -18,5 +18,10 @@
 
   "background": {
     "scripts": ["background.js"]
-  }
+  },
+
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.3.min.js", "movie_subject_content.js" ],
+    "matches": [ "http://movie.douban.com/subject/*" ]
+  }]
 }
