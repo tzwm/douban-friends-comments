@@ -22,6 +22,7 @@
 
   "content_scripts": [ {
     "js": [ "jquery-2.0.3.min.js", "movie_subject_content.js" ],
+    "css": [ "movie_subject_content.css" ],
     "matches": [ "http://movie.douban.com/subject/*" ]
   }]
 }

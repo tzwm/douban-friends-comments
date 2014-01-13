@@ -1,0 +1,24 @@
+#subject-friends-comments {
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+#subject-friends-comments ul {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#subject-friends-comments li {
+    overflow: hidden;
+    *zoom: 1;
+    padding: 12px 0;
+    border-bottom: 1px dashed #DDD;
+    line-height: 1.5;
+    color: #666;
+}
+#subject-friends-comments .others-interest-avatar {
+    float: left;
+    margin-right: 12px;
+}
+#subject-friends-comments .others-interest-info {
+    overflow: hidden;
+    *zoom: 1;
+}

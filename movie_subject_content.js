@@ -1,15 +1,16 @@
 function removeAd(){
-  var ad = $("#dale_movie_subject_top_right");
-  ad.remove();
+  $("#dale_movie_subject_top_right").remove();
+  $("#dale_movie_subject_middle_right").remove();
 }
 
 function addFriendComment(){
-  var others_interests = $("#subject-others-interests");
-  var friend_comment = $.extend(true, {}, others_interests); 
+  //var others_interests = $("#subject-others-interests");
+  //var friends_comments = $.extend(true, {}, others_interests); 
 
-  friend_comment.children("h2").text("好友评价 · · · · · · ");
+  $(".aside").prepend("<div id=subject-friends-comments></div>");
 
-  $(".aside").prepend(friend_comment);
+  var friends_comments = $("#subject-friends-comments");
+  friends_comments.prepend("<h2>好友评价 · · · · · ·</h2>");
 }
 
 removeAd();
